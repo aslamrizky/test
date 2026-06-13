@@ -52,4 +52,20 @@
                 <exec.appArgs></exec.appArgs>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-Checkstyle Check</actionName>
+            <displayName>Checkstyle Check</displayName>
+            <goals>
+                <goal>checkstyle:check</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-PMD Check</actionName>
+            <displayName>PMD Check</displayName>
+            <goals>
+                <goal>pmd:check</goal>
+                <goal>pmd:cpd-check</goal>
+            </goals>
+        </action>
+        
     </actions>
