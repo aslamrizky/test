@@ -43,4 +43,8 @@ public class CalculatorTest {
     void testDivideByZero() {
         assertThrows(IllegalArgumentException.class, () -> calc.divide(5, 0));
     }
+    @Test
+    void testModulo() {
+        assertEquals(1, calc.modulo(7, 3));
+    }
 }

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.6" sequence="0" timestamp="1781258205296" analysisTimestamp="1781338192518" release="">
+  <Project projectName="calculator-app">
+    <Jar>C:\Download\calculator-app\target\classes</Jar>
+  </Project>
+  <Errors errors="23" missingClasses="0">
+    <Error>
+      <ErrorMessage>Error scanning java/lang/Object for referenced classes</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:806)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:249)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/Object</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:806)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:249)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for com/mycompany/calculator/app/CalculatorApp</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:806)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:249)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/invoke/MethodHandles$Lookup</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/String</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/IllegalArgumentException</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/invoke/MethodType</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/invoke/CallSite</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/invoke/MethodHandles</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/invoke/StringConcatFactory</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for com/mycompany/calculator/app/Calculator</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:806)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:249)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/lang/System</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Unable to get XClass for java/io/PrintStream</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/Object</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:806)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:249)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/invoke/MethodHandles$Lookup</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/String</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/IllegalArgumentException</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/invoke/MethodType</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/invoke/CallSite</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/invoke/MethodHandles</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/invoke/StringConcatFactory</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/lang/System</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Couldn&apos;t get class info for java/io/PrintStream</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 69</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:200)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:693)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:975)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:909)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:252)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:395)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
+    </Error>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 12 Jun 2026 16:56:45 +0700" total_classes="0" referenced_classes="2" total_bugs="0" total_size="0" num_packages="0" java_version="25.0.2" vm_version="25.0.2+10-LTS" cpu_seconds="1.11" clock_seconds="0.22" peak_mbytes="126.13" alloc_mbytes="512.00" gc_seconds="0.00">
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="14" invocations="2" avgMicrosecondsPerInvocation="7191" maxMicrosecondsPerInvocation="10583" standardDeviationMicrosecondsPerInvocation="3391"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

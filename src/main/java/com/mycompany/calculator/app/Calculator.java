@@ -28,4 +28,7 @@ public class Calculator {
         }
         return (double) a / b;
     }
+    public int modulo(int a, int b) {
+        return a % b;
+    }
 }
