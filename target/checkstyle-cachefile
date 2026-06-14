@@ -1,0 +1,4 @@
+#Sun Jun 14 18:23:34 WIB 2026
+configuration*?=34DABF123B956ECBBD788209887D9BCC06532B47
+module-resource*?\:checkstyle-suppressions.xml=3E0382C0C0815A83CD68490C969614660A1BC1EA
+module-resource*?\:checkstyle-xpath-suppressions.xml=40E1581B3F4F2CE99776168FF2581C7F21459F98
