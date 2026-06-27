@@ -9,10 +9,22 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
         <exec.mainClass>com.mycompany.calculator.app.CalculatorApp</exec.mainClass>
+
+        <!--
+            Build/version metadata. `build.number` defaults to "local" so a plain
+            `mvn package` on a dev machine still works. The CI pipeline overrides it
+            with `-Dbuild.number=${{ github.run_number }}` so every pipeline run is
+            individually traceable, and bumps `project.version` itself via the
+            versions-maven-plugin before packaging, so the produced jar filename
+            (calculator-app-<version>.jar) automatically changes whenever the code
+            changes and a new build runs.
+        -->
+        <build.number>local</build.number>
+        <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
+        <build.timestamp>${maven.build.timestamp}</build.timestamp>
     </properties>
     <dependencies>
         <dependency>
-            
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.0</version>
@@ -43,14 +55,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <distributionManagement>
-       <repository>
-         <id>github</id>
-         <name>GitHub OWNER Apache Maven Packages</name>
-         <url>https://maven.pkg.github.com/aslamrizky/calculator-app-cicd</url>
-       </repository>
-    </distributionManagement>
     <build>
+        <finalName>${project.artifactId}-${project.version}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -81,6 +93,11 @@
                         <manifest>
                             <mainClass>com.mycompany.calculator.app.CalculatorApp</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <Implementation-Version>${project.version}</Implementation-Version>
+                            <Build-Number>${build.number}</Build-Number>
+                            <Build-Time>${build.timestamp}</Build-Time>
+                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
@@ -92,6 +109,7 @@
                     <configLocation>google_checks.xml</configLocation>
                     <failOnViolation>false</failOnViolation>
                     <violationSeverity>warning</violationSeverity>
+                    <includeTestSourceDirectory>true</includeTestSourceDirectory>
                 </configuration>
             </plugin>
 
@@ -103,6 +121,16 @@
                     <printFailingErrors>true</printFailingErrors>
                     <failOnViolation>false</failOnViolation>
                 </configuration>
+            </plugin>
+
+            <!--
+                Lets the CI pipeline run `mvn versions:set -DnewVersion=...` to bump the
+                project version automatically on every build, before `package` runs.
+            -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.16.2</version>
             </plugin>
         </plugins>
     </build>

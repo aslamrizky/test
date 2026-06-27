@@ -6,9 +6,16 @@ FROM maven:3.9-eclipse-temurin-17 AS build
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
-RUN mvn clean package -DskipTests
+
+ARG APP_VERSION=
+ARG BUILD_NUMBER=local
+
+RUN if [ -n "$APP_VERSION" ]; then \
+        mvn -B versions:set -DnewVersion=$APP_VERSION -DgenerateBackupPoms=false; \
+    fi && \
+    mvn -B clean package -DskipTests -Dbuild.number=$BUILD_NUMBER
 
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
-COPY --from=build /app/target/calculator-app-1.0-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/calculator-app-*.jar app.jar
 CMD ["java", "-jar", "app.jar"]
